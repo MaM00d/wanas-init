@@ -7,11 +7,12 @@ services:
       POSTGRES_USER: 'tme'
       POSTGRES_PASSWORD: '1598753'
       POSTGRES_DB: 'wanas'
+      DB_HOST: '127.0.0.1'
+  ai:
+    build: ./Ai/AiServer/
+    ports:
+      - '12345:1235/tcp'
   server:
     build: ./Server
     ports:
       - 3000:3000
-  ai:
-    build: ./Ai/comm
-    ports:
-      - 12345:12345
