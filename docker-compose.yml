@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: 'tme'
+      POSTGRES_PASSWORD: '1598753'
+      POSTGRES_DB: 'wanas'
+  server:
+    build: ./Server
+    ports:
+      - 3000:3000
+  ai:
+    build: ./Ai/comm
+    ports:
+      - 12345:12345
