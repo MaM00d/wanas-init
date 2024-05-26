@@ -3,4 +3,4 @@
 	url = https://github.com/MaM00d/wanasserver.git
 [submodule "Ai/AiServer"]
 	path = Ai/AiServer
-	url = https://github.com/MaM00d/wanaai.git
+	url = https://github.com/MaM00d/wannai.git
