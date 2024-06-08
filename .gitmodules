@@ -1,6 +1,6 @@
 [submodule "Server"]
 	path = Server
 	url = https://github.com/MaM00d/wanasserver.git
-[submodule "Ai/AiServer"]
-	path = Ai/AiServer
+[submodule "wannai"]
+	path = wannai
 	url = https://github.com/MaM00d/wannai.git
